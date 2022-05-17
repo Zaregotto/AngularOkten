@@ -17,7 +17,7 @@ export class CommentDetailsComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.activatedRoute.params.subscribe((id) => {
+    this.activatedRoute.params.subscribe(({id}) => {
 
 
 
