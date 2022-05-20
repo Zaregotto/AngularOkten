@@ -1,0 +1,9 @@
+.head{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10%;
+}
+
+.active{
+  color: pink;
+}
