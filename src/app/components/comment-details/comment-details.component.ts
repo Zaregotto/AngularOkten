@@ -21,7 +21,7 @@ export class CommentDetailsComponent implements OnInit {
 
 
 
-      this.commentService.getComment(id).subscribe(value => this.commentDetailsObj = value as CommentDetailsInterface);  //Не можу розібратись
+      this.commentService.getComment(id).subscribe(value => this.commentDetailsObj = value as CommentDetailsInterface);
     });
 
   }
